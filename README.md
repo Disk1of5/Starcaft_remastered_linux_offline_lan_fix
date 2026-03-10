@@ -45,6 +45,8 @@ After you install the Battle.net dependency and StarCraft: Remastered via Lutris
 .../drive_c/Program Files (x86)\StarCraft\x86_64\lan_launcher.bat
 ```
 
+Right-click the game's entry in Lutris, open the Wine runner menu and click "Winetricks". Select the default wine prefix, choose "Install a Windows DLL or component", then install Microsoft's "vcrun2015".
+
 5. Save and run the entry to test. The batch file should start the game, then the mDNS host helper to advertise the lobby.
 
 
